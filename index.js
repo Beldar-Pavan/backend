@@ -60,6 +60,10 @@ app.get('/youtube', (req, res) => {
     res.send('<h2>watch the youtube</h2>')
 })
 
+app.get('/instagram', (req, res) => {
+    res.send('hi massage insta!')
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`Example app listening on port ${port}`);
 });
